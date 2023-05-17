@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+}
+.div-principal{
+    background-image: url(../../assets/img/fundo.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    color: white;
+}
+
+@media (max-width: 500px){
+    .div-principal{
+        min-height: 450px;
+    }
+}
+
+.img-rbr{
+    width: 100%;
+    max-width: 250px;
+}
+
+.img-f1-meca{
+    width: 100%;
+    max-width: 250px;
+}
+
+.img-vers{
+    width: 100%;
+    max-width: 500px;
+    padding-bottom: 250px;
+    filter: drop-shadow(2px 4px 6px black); 
+}
+
+.div-centro{
+    height: 600px;
+    width: 100%;
+}
+
+.div-carros{
+    height: 200px;
+    width: 100%;
+}
+
+.div-img-vers, .div-img-rbr{
+    bottom: 0px;
+}
+
+.img-hamilton{
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 250px;
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.img-leclerc{
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 250px;
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.img-pneu{
+    max-width: 200px;
+    width: 100%;
+    max-height: 200px;
+    padding: 10px;
+}
+
+.div-pneus{
+    background-color: black;
+}
+
+.div-titulo-pneus{
+    background-color: black;
+    color: white;
+}
+
+.div-pneu{
+    color: white;
+    font: bold;
+    border: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.p-pneu{
+    text-align: center;
+}
+
+.div-circuito{
+    display: table;
+}
+
+.texto-circuito{
+    display: table-cell;
+    float: left;
+    width: 10px;
+}
+
+.img-circuito{
+    display: table-cell;
+    width: 100%;
+    float: left;
+    max-width: 506px;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+.img-logo{
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
